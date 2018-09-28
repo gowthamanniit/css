@@ -57,3 +57,64 @@ div {
     100% {background-color: green;}
 }
 -->
+//================================================================================
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#trans
+		{
+   width: 100px;
+    height: 100px;
+   transition: width 2s;
+   transition-timing-function: cubic-bezier(0.1, 0.8, 1.0, 0.1); /* linear ease ease-in ease-out ease-in-out   IE not work 9 & earlier*/
+   
+   	}
+		#trans:hover
+		{
+			width: 1000px;
+		
+		}
+	</style>
+</head>
+<body>
+<img id="trans" src="about.jpg"></img>
+</body>
+</html>
+
+<!--For Safari 3.1 to 6.0 
+#div1 {-webkit-transition-timing-function: linear;}
+#div2 {-webkit-transition-timing-function: ease;}
+#div3 {-webkit-transition-timing-function: ease-in;}
+#div4 {-webkit-transition-timing-function: ease-out;}
+#div5 {-webkit-transition-timing-function: ease-in-out;}
+       -o-
+	   -moz-
+ Standard syntax 
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+#div1 {transition-timing-function: cubic-bezier(0,0,1,1);}
+#div2 {transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
+#div3 {transition-timing-function: cubic-bezier(0.42,0,1,1);}
+#div4 {transition-timing-function: cubic-bezier(0,0,0.58,1);}
+#div5 {transition-timing-function: cubic-bezier(0.42,0,0.58,1);}
+
+
+ease	Default value. Specifies a transition effect with a slow start, then fast, then end slowly (equivalent to cubic-bezier(0.25,0.1,0.25,1))
+linear	Specifies a transition effect with the same speed from start to end (equivalent to cubic-bezier(0,0,1,1))
+ease-in	Specifies a transition effect with a slow start (equivalent to cubic-bezier(0.42,0,1,1))
+ease-out	Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))
+ease-in-out	Specifies a transition effect with a slow start and end (equivalent to cubic-bezier(0.42,0,0.58,1))
+step-start	Equivalent to steps(1, start)
+step-end	Equivalent to steps(1, end)
+steps(int,start|end)	Specifies a stepping function, with two parameters. The first parameter specifies the number of intervals in the function. It must be a positive integer (greater than 0). The second parameter, which is optional, is either the value "start" or "end", and specifies the point at which the change of values occur within the interval. If the second parameter is omitted, it is given the value "end"
+cubic-bezier(n,n,n,n)	Define your own values in the cubic-bezier function. Possible values are numeric values from 0 to 1
+initial	Sets this property to its default value. Read about initial
+inherit	Inherits this property from its parent element. Read about inherit
+-->
