@@ -1,3 +1,61 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div
+		{
+			width: 200px;
+			height: 300px;
+			background: yellow;
+			border: 1px solid Red;
+			 animation-name: gowthaman;
+    		 animation-duration: 4s;
+		}
+		@keyframes gowthaman
+		{
+    from {background-color: red;}
+    to {background-color: yellow;}
+	}
+
+
+
+	</style>
+</head>
+<body>
+<div class="gowthaman">
+gowthaman
+</div>
+</body>
+</html>
+<!--
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+-->
+
+//============================================================================================
 <!DOCTYPE html>
 <html>
 <head>
