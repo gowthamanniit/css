@@ -59,6 +59,45 @@ div {
 <!DOCTYPE html>
 <html>
 <head>
+	<title></title>
+	<style type="text/css">
+		div
+		{
+			width: 200px;
+			height: 300px;
+			background: yellow;
+			border: 1px solid Red;
+			 animation-name: gowthaman;
+    		 animation-duration: 5s;
+		}
+		@keyframes gowthaman
+		{
+    0% {background-color: red;}
+    20% {background-color: green;}
+    40% {background-color: blue;}
+    60% {background-color: black;}
+    80% {background-color: cyan;}
+    100% {background-color: pink;}
+	}
+
+
+
+	</style>
+</head>
+<body>
+<div class="gowthaman">
+gowthaman
+</div>
+</body>
+</html>
+
+
+
+
+//=================================================================================================
+<!DOCTYPE html>
+<html>
+<head>
     <title></title>
     <style type="text/css">
 .box {
