@@ -11,7 +11,7 @@
 		background-color: yellow;
 		border: 3px solid red;
 		color:red;
-		left: 500px;
+		left: 500px;             // USE right,bottom z-index
 		top:100px;
 		position: static;
 
