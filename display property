@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+	div
+	{
+		width:300px;
+		height: 200px;
+		background-color: yellow;
+		border: 3px solid red;
+		color:red;
+		left: 500px;
+		top:100px;
+		position: static;
+
+			// static  => normal;  (left,top not work + move whnen scrolling)
+			// fixed   => dont move when scrolling (left,top work)
+			// absoulte=> move when scrolling (left,top work) (top value taken from screen border)
+			// relative=> move when scrolling (left,top,work) (top value taken from previous tag)
+
+
+	}
+	</style>
+</head>
+<body>
+
+
+	
+<p>Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.  </p>
+	<div>Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.</div>
+<p><font size="6">Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document. Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.Video provides a powerful way to help you prove your point.Hello world When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.  </font></p>
+
+	
+	
+</body>
+</html>
