@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<STYLE>
+img {
+float: none;  // left,right,none
+}
+</STYLE>
+</HEAD>
+<BODY>
+<IMG src= "ance.jpg" width=500 height=200>
+<P> BookYourHotel welcomes you with warmth and a feeling that each guest is truly special. It offers a cozy and intimate experience amidst the glitz and glamour of South America. Our caring and courteous staffs are ever eager to ensure that all individual needs are cared for with professional expertise and a personal touch.</P>
+<P>The rooms have been designed with different floor plans to create individual spaces. We have Deluxe Rooms, Double and Single Rooms each with ensuite Bathrooms fitted with all modern conveniences. All room has Air-Conditioning and is equipped with well stocked Mini-bars, Television with Cable T.V. Conference facilities available for approximately 40 persons. Our multi-cuisine restaurant offers, a plethora of tasty local and international dishes to satisfy all palates. This hotel gives you an exclusive experience.</P>      	
+</BODY>
+</HTML>
