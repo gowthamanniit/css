@@ -1,0 +1,14 @@
+.gowthaman
+{
+	background-color: green;
+	color: white;
+	font-size: 15px;
+	border: 5px solid yellow;
+	//width: 400px;
+	width: 50%;
+	//background-image: url("123.jpg");
+	opacity: 0.9;
+	text-align: center;
+	margin-left: 25%;
+	margin-top: 10px;		
+}
