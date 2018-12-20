@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		ul
+		{
+			background-color: black;
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			//position: fixed; 
+			width: 10%;
+			overflow: hidden;  // auto
+		}
+		li
+		{
+
+			float: left;
+		}		
+		
+		li a
+		{
+
+			display: block;
+			text-decoration: none;
+			padding: 20px 20px;
+			color:white;
+			font-size: 25px;			
+		}
+		li a:hover
+		{
+
+			background-color: white;
+			color:black;
+		}
+	</style>
+</head>
+<body>
+<ul>
+<li><a href="home.html">home</a></li>
+<li><a href="about us.html">about us</a></li>
+<li><a href="login.html">login</a></li>
+<li><a href="sign in.html">sign in</a></li>
+</ul>
+
+</body>
+</html>
