@@ -46,3 +46,71 @@
 
 </body>
 </html>
+
+dropdown menu:
+==============
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nav bar</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="one">
+		<button class="two">Dropdown</button>
+		<div id="three">
+			<a href="">link1</a>
+			<a href="">link2</a>
+			<a href="">link3</a>
+		</div>
+	</div>
+	<br>
+	hai test sdlfjsd flsdj
+</body>
+</html>
+
+style.css
+=========
+.two
+{
+ background-color: #4CAF50;
+  color: white;
+  padding: 26px;
+  font-size: 16px;
+  border: 2px solid red;
+  cursor: pointer;
+}
+#one
+{
+ position: relative;
+ display: inline-block;
+}
+#three
+{
+  display: none;
+  position: absolute;
+  background-color: pink;
+  min-width: 120px;
+  box-shadow: 0px 8px 35px 10px rgba(0,0,200,0.7);
+  z-index: 1;
+}
+#three a
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  /* a link not visible underline */
+  display: block;
+}
+#three a:hover
+{
+	background-color: blue;
+}
+#one:hover #three
+{
+display: block;
+}
+#one:hover .two
+{
+	background-color: rgb(0,0,200);
+}
