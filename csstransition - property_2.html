@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#trans
+		{
+   width: 100px;
+    height: 100px;
+    
+   /* -webkit-transition-property: width; /* Safari */
+    /*-webkit-transition-duration: 2s; /* Safari */
+    transition-property: width;      /*  :width,height;*/
+    transition-duration: 5s;         /* 5s */  
+		}
+		#trans:hover
+		{
+			width: 400px;
+		
+		}
+	</style>
+</head>
+<body>
+<img id="trans" src="about.jpg"></img>
+</body>
+</html>
+
+<!--javascript code
+
+
+<script>
+function myFunction() {
+    document.getElementById("myDIV").style.WebkitTransitionProperty = "width, height"; // Code for Safari 3.1 to 6.0
+    document.getElementById("myDIV").style.transitionProperty = "width, height";       // Standard syntax
+}
+============================================
+#delay {
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+
+#delay:hover {
+  font-size: 36px;
+}
+
+====================================
+div {
+  transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s, 3s, 5s;
+}
+=====================================
+
+-->
