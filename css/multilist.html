@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>multilist</title>
+	<style type="text/css">
+		.sub
+		{
+			display: none;
+			background-color: green;			
+		}
+		.root:hover .sub
+		{
+			display: block;
+		}
+		ul
+		{
+			list-style-type: none;			
+			display: inline-block;
+		}
+		li
+		{
+			padding: 10px;
+			list-style-image: url("arrow.jpg");
+		}
+		ul li li:hover
+		{
+			background-color: yellow;
+		}
+		ul li
+		{
+			background-color: #fa2a;
+		}
+	</style>
+</head>
+<body>
+	<h1> multilist </h1>
+	<ul>
+		<li class="root"> chapter 1
+			<ul class="sub">
+					<li> session1 </li>
+					<li> session2 </li>
+					<li> session3 </li>
+					<li> session4 </li>
+
+			</ul>
+		 </li>
+		<li class="root"> chapter 2 
+			<ul class="sub">
+					<li> session1 </li>
+					<li> session2 </li>
+			</ul>
+
+		</li>
+		<li class="root"> chapter 3 
+			<ul class="sub">
+					<li> session1 </li>					
+				</ul>
+		</li>
+		<li> chapter 4 </li>
+		<li> chapter 5 </li>
+	</ul>
+
+</body>
+</html>

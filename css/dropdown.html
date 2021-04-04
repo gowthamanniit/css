@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dropdown</title>
+	<style type="text/css">
+		
+		
+		#menuitem a
+		{
+			display: block;	
+			text-decoration: none;
+			background: red;	
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+			padding-top: 20px;	
+		}
+		#menuitem
+		{
+			display: none;
+		}
+		
+		#menu:hover #menuitem
+		{			
+			display: block;
+		} 
+		#menu
+		{			
+			display: inline-block;
+		}
+
+	</style>
+</head>
+<body bgcolor="#d3ff">
+	<div id="menu">
+	<button id="but">dropdown</button>
+	<div id="menuitem">
+		<a href="#"> link 1 </a>
+		<a href="#"> link 2 </a>
+		<a href="#"> link 3 </a>
+		<a href="#"> link 4 </a>
+		<a href="#"> link 5 </a>
+		<a href="#"> link 6 </a>
+	</div>
+</div>
+</body>
+</html>
