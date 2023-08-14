@@ -1,0 +1,65 @@
+mobile responsive view:
+=======================
+
+step 1: open chrome
+
+	search : mobile responsive chrome extension
+
+step 2:
+	Mobile simulator - responsive testing tool
+	click add to chrome button
+
+
+step 3:
+	click extension button in address bar right side.
+	-->manage extensions click -->
+	mobile simulator
+	-->details button click.
+	
+	Mobile simulator - responsive testing tool-->ON
+	Allow access to file URLs -->oN
+PROGRAM:
+
+	@media only screen and(max-width:400px)
+	{
+		selectorname
+		{
+		property:value;
+		}
+	}
+ex:
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		body
+		{
+			background-color: green;
+		}
+		h1
+		{
+			background-color: blue;
+			color:red;
+		}
+		@media only screen and (max-width:400px)
+		{
+			body
+			{
+			background-color:yellow;
+			}
+			h1
+			{
+				background-color: green;
+				color:white;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>welcome to header1</h1>	
+</body>
+</html>
+
