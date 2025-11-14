@@ -1,0 +1,63 @@
+3 types
+float
+flex
+grid
+=========flex start=====
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>flexbox</title>
+<style type="text/css">
+	.flex-wrapper{
+		background-color: gray;
+		margin: 50px;
+		padding:10px;
+		display: flex;
+/*		flex-direction: column;*/
+		align-items: center;
+/*		align-items: flex-start;*/
+/*		align-items: flex-end;*/
+
+/*		justify-content: center;*/
+/*		justify-content: space-around;*/
+/*		justify-content: space-between;*/
+		justify-content: space-evenly;
+/*		justify-content: start;*/
+/*		justify-content: end;*/
+	}
+	.e1{
+		 background-color: red;
+		 width:100px;
+	}
+	.e2{
+		 background-color: green;
+		 height:100px;
+	}
+	.e3{
+		 background-color: blue;
+		 height: 300px;
+	}
+	.e4{
+		 background-color: yellow;
+	}
+	.e5{
+		 background-color: pink;
+	}
+</style>
+</head>
+<body>
+	<div class="flex-wrapper">
+		<div class="e1">html</div>
+		<div class="e2">css</div>
+		<div class="e3">element</div>
+		<div class="e4">language</div>
+		<div class="e5">learn
+		</div>
+
+	</div>
+</body>
+</html>
+============flex end=============
+
