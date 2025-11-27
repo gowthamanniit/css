@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        #main
+        {
+            position: relative;
+            /* margin-left: 12.5%; */
+            width:75%;
+            height:200px;
+            background-color: greenyellow;
+            border:5px inset rebeccapurple;
+            transform: translate(12.5%,0%);
+        }
+        .sd
+        {
+            width:50px;
+            height: 50px;
+            position:absolute;
+                       
+        }
+        #sub1
+        {
+            background-color: red;
+            top:0;
+            left:0;
+            }
+            #sub2
+        {
+            background-color: green;
+            top:0;
+            left:50%;
+            transform: translate(-50%,0);
+            }
+            #sub3
+        {
+            background-color: yellow;
+            top:0;
+            right:0;
+            }
+            #sub4
+        {
+            background-color:pink;
+            top:50%;
+            left:0;
+            transform: translate(0,-50%);
+            }
+            #sub5
+        {
+            background-color: blue;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            }
+            #sub6
+        {
+            background-color: orange;
+            top:50%;
+            right:0%;
+            transform: translate(0,-50%);
+            
+            }
+            #sub7
+        {
+            background-color:silver;
+            bottom:0;
+            left:0;
+            }
+            #sub8
+        {
+            background-color: black;
+            bottom:0;
+            left:50%;
+            transform: translate(-50%,0);    
+        }
+            #sub9
+        {
+            background-color:purple;
+            bottom:0;
+            right:0;
+            }
+
+           
+       
+    </style>
+</head>
+<body>
+    <div id="main">
+            
+        <div class="sd" id="sub1"></div>
+        <div class="sd" id="sub2"></div>
+        <div class="sd" id="sub3"></div>
+        <div class="sd" id="sub4"></div>
+        <div class="sd" id="sub5"></div>
+        <div class="sd" id="sub6"></div>
+        <div class="sd" id="sub7"></div>
+        <div class="sd" id="sub8"></div>
+        <div class="sd" id="sub9"></div>
+
+    </div>
+</body>
+</html>
